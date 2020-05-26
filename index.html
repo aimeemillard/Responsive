@@ -7,28 +7,95 @@
 
     <title>Bootstrap Basic Portfolio</title>
 
-    
     <!-- Boostrap Stylesheet/ CDN -->
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
     <!-- your own CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
+
     <!-- NavBar-->
+    
+    <nav id="navbar" class="navbar sticky-top navbar-expand-sm navbar-light bg-light">
+      <a class="navbar-brand" href="#">Aimee Millard</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-item nav-link active" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">  
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+          </li>        
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Just an image -->
+    
+    <!--<img src="https://i.ya-webdesign.com/images/mickey-mouse-clipart-png-9.png" class="rounded float-left" alt="About Me"> -->
+   
 
     <!-- Start of container -->
+    
+    <div id="mickey" class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <div id="aboutme" class="col">ABOUT ME
+          <br>
+          </br>
+          </div>
+          <img src="https://i.ya-webdesign.com/images/mickey-mouse-clipart-png-9.png" class="rounded float-left" alt="About Me">
+          <p>
+            Hi! Yes, I'm a big fan of Mickey Mouse. I am currently working full-time
+            in healthcare at the West Haven VA. I've been in healthcare since 2002.
+            I recently finished an 8yr contract in the Army. Besides my home state 
+            California, I've lived in Oklahoma, Texas, Florida and presently in 
+            Connecticut since 2017. 
+            
+            Right now I am learning to code through a coding bootcamp at 
+            Uconn. I plan to work as a full-stack web developer when I finish. Or I 
+            hope to if I get hired....cross your fingers! 
+  
+            On my spare time I enjoy playing and running around the house with my 
+            20-month energetic boy. I also have a 13yr old and a 16yr old, but they 
+            tend to do their own thing at their age. 
+  
+            I'm also a big fan of tie-dye. I've become a pizza snob since living here. 
+            I enjoy eating trendy hipster food in New Haven or a good lobster roll in 
+            Clinton. So, between Frankn Pepe, Modern and Sally's....Pepe's is hands down
+            the best pizza!!!
+          </p>
+      </div> 
+    </div>
+  
 
     <!-- End of container -->
-
+     
     <!-- Start of footer -->
-    <footer class="footer">
+    <div class="footer">
       <div class="two-toned-footer-color"></div>
-      <p class="text-muted text-muted-footer text-center">
+      <p class="footer text-center">
         &copy; Copyright
       </p>
-    </footer>
+    </div>
     <!-- End of footer -->
 
+    
     <!-- jQuery CDN/ (Bootstrap JS) -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    
   </body>
 </html>

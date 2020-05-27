@@ -60,15 +60,16 @@ body {
   column-gap: 20px;
 }
 
-/* .navbar-brand {
+.navbar-brand {
   background-color: red;
   padding: 20px;
   font-size: 18pt;
   margin-left: 15px;
-} */
+}
 
 .footer {
   background-color: gray;
+  font-size: 10pt;
   color: white;
   position: fixed;
   left: 0;

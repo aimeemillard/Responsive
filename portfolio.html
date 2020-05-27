@@ -8,23 +8,36 @@
     <title>Bootstrap Basic Portfolio</title>
 
     <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
 
     <!-- your own CSS stylesheet -->
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-
     <!--   navbar -->
-    
-      <nav id="navbar" class="navbar sticky-top navbar-expand-sm navbar-light bg-light">
-        <a class="navbar-brand" href="#">Aimee Millard</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+
+    <nav
+      id="navbar"
+      class="navbar sticky-top navbar-expand-sm navbar-light bg-light"
+    >
+      <a class="navbar-brand" href="#">Aimee Millard</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
@@ -34,51 +47,50 @@
           <li class="nav-item">
             <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
           </li>
-          <li class="nav-item">  
+          <li class="nav-item">
             <a class="nav-item nav-link" href="contact.html">Contact</a>
-          </li>        
+          </li>
         </ul>
       </div>
     </nav>
-  
 
     <!-- Start of container -->
-    <div id="portHeader" class="container">
-      Portfolio
-    </div>
-
-    <div id="port" class="container">
-      <div class="row row-cols-2">
-      <div class="col">
-        Portfolio1
-      <img src="..." class="rounded float-left" alt="...">
+    <div id="portfolio" class="container">
+      <div id="my-portfolio" class="row my-row">
+        Portfolio
+        <!-- <style>
+          div {
+            border-bottom-style: solid;
+            border-bottom-color: red;
+            border-bottom-width: 2px;
+          }
+        </style> -->
+        <!-- </div> -->
       </div>
 
-      <div class="col">
-        Portfolio2
-      <img src="..." class="rounded float-right" alt="...">
+      <!-- <div id="portfolio" class="container my-container"> -->
+      <div class="row my-row">
+        <div class="col-md-6 my-col">
+          Linkdin
+        </div>
+        <div class="col-md-6 my-col">
+          Instagram
+        </div>
       </div>
-
-      <div class="col">
-        Portfolio3
-      <img src="..." class="rounded float-left" alt="...">
+      <div class="row my-row">
+        <div class="col-md-6 my-col">
+          GitHub
+        </div>
+        <div class="col-md-6 my-col">
+          Portfolio 4
+        </div>
       </div>
-
-      <div class="col">
-        Portfolio4
-      <img src="..." class="rounded float-right" alt="...">
+      <div class="row my-row">
+        <div class="col-md-6 my-col">
+          Portfolio 5
+        </div>
+        <div class="col-md-6 my-col"></div>
       </div>
-
-      <div class="col">
-        Portfolio5
-      <img src="..." class="rounded float-left" alt="...">
-      </div>
-
-      <div class="col">
-        Portfolio6
-      <img src="..." class="rounded float-right" alt="...">
-      </div>
-
     </div>
 
     <!-- End of container -->
@@ -93,11 +105,22 @@
     <!-- End of footer -->
 
     <!-- jQuery CDN -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Bootstrap CDN -->
- 
   </body>
 </html>
